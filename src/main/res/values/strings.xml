@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ProjectUTS_DesiNabila</string>
+
+    <string-array name="asal">
+        <item> </item>
+        <item>BD - Bandung - Bandung</item>
+        <item>CN - Cirebon - Cirebon</item>
+        <item>GMR - Gambir - Jakarta</item>
+        <item>PSE - Pasar Senen - Jakarta</item>
+        <item>ML - Malang - Malang</item>
+        <item>SMC - Semarang Poncol - Semarang</item>
+        <item>SMT - Semarang Tawang - Semarang</item>
+        <item>SBI - Surabaya Pasar Turi - Surabaya</item>
+        <item>YK - Yogyakarta - Yogyakarta</item>
+    </string-array>
+
+    <string-array name="tujuan">
+        <item> </item>
+        <item>CN - Cirebon - Cirebon</item>
+        <item>GMR - Gambir - Jakarta</item>
+        <item>PSE - Pasar Senen - Jakarta</item>
+        <item>ML - Malang - Malang</item>
+        <item>SMC - Semarang Poncol - Semarang</item>
+        <item>SMT - Semarang Tawang - Semarang</item>
+        <item>SBI - Surabaya Pasar Turi - Surabaya</item>
+        <item>YK - Yogyakarta - Yogyakarta</item>
+        <item>BD - Bandung - Bandung</item>
+    </string-array>
+
+    <string-array name="jumlah_dewasa">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="jumlah_anak">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+</resources>

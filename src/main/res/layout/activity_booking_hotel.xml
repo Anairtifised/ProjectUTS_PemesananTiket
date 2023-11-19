@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingHotelActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_margin="5dp">
+
+      <TextView
+          android:textAlignment="center"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="DATA DIRI"/>
+
+      <LinearLayout
+          android:padding="20dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:text="Nama"/>
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:paddingLeft="20dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:text="Alamat"
+            android:layout_marginRight="5dp"/>
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_margin="5dp">
+
+      <TextView
+          android:padding="10dp"
+          android:textAlignment="center"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="WAKTU BOOKING"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <EditText
+              android:id="@+id/cekin"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:drawableStart="@drawable/baseline_map_24"
+              android:drawablePadding="20dp"
+              android:hint="Check In"
+              android:inputType="date"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <EditText
+              android:id="@+id/cekout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:drawableStart="@drawable/baseline_map_24"
+              android:drawablePadding="20dp"
+              android:hint="Check Out"
+              android:inputType="date"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center">
+
+      <Button
+          android:id="@+id/bookingnow"
+          android:layout_width="wrap_content"
+          android:layout_height="60dp"
+          android:backgroundTint="#0099ff"
+          android:text="BOOKING SEKARANG"/>
+    </LinearLayout>
+
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
